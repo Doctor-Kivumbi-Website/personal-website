@@ -1,0 +1,22 @@
+{
+  "site": {
+    "title": "Doctor Kivumbi",
+    "base_url": "/",
+    "favicon": "/images/favicon.png",
+    "logo": "/images/logo-main2.png",
+    "logo_width": "130",
+    "logo_height": "130",
+    "logo_text": "Doctor Kivumbi"
+  },
+  "settings": {
+    "theme_switcher": true,
+    "default_theme": "system",
+    "pagination": 6,
+    "InnerPaginationOptions": {
+      "enableTop": false,
+      "enableBottom": true
+    },
+    "summary_length": 200,
+    "blog_folder": "posts"
+  }
+}
