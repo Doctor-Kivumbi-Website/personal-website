@@ -6,6 +6,7 @@ export type Button = {
 
 interface Service {
   name: string;
+  image: string;
   content: string;
 }
 

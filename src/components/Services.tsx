@@ -1,6 +1,7 @@
 "use client";
 
 import { Service, ServicesData } from "@/types";
+import Image from "next/image";
 
 const Services = ({ data }: { data: ServicesData }) => {
   return (
@@ -15,12 +16,24 @@ const Services = ({ data }: { data: ServicesData }) => {
               </div>
               <div className="col-12 grid grid-cols-1 md:grid-cols-3 gap-6">
                 {data.services.map((item: Service, index: number) => (
-                  <div key={index} className="mb-6">
-                    <div className="rounded-lg bg-theme-light px-7 py-10 dark:bg-darkmode-theme-light">
-                      <h3 className="h5 font-primary font-semibold mb-4">
-                        {item.name}
-                      </h3>
-                      <blockquote className="mt-2">{item.content}</blockquote>
+                  <div key={index} className="mb-6 flex">
+                    <div className="flex-grow">
+                      <div className="rounded-lg bg-theme-light px-7 py-10 dark:bg-darkmode-theme-light h-full">
+                        <div className="relative h-60">
+                          <Image
+                            src={item.image}
+                            alt={item.name}
+                            layout="fill"
+                            objectFit="cover"
+                            className="rounded-lg pb-4"
+                          />
+                        </div>
+
+                        <h3 className="h5 font-primary font-semibold mb-4">
+                          {item.name}
+                        </h3>
+                        <blockquote className="mt-2">{item.content}</blockquote>
+                      </div>
                     </div>
                   </div>
                 ))}
