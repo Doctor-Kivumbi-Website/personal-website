@@ -8,10 +8,10 @@ export default function Conduct() {
         <div className="row items-center justify-between">
           <div className={`mb:md-0 mb-6 md:col-5`}>
             <Image
-              src="/images/candle.svg"
+              src="/images/doctor.jpg"
               height={480}
               width={520}
-              alt="candle"
+              alt="doctor_image"
             />
           </div>
           <div className={`md:col-7 lg:col-6 `}>

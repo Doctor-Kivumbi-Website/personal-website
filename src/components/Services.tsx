@@ -19,13 +19,12 @@ const Services = ({ data }: { data: ServicesData }) => {
                   <div key={index} className="mb-6 flex">
                     <div className="flex-grow">
                       <div className="rounded-lg bg-theme-light px-7 py-10 dark:bg-darkmode-theme-light h-full">
-                        <div className="relative h-60">
-                          <Image
+                        <div className="relative">
+                          <img
                             src={item.image}
                             alt={item.name}
-                            layout="fill"
-                            objectFit="cover"
-                            className="rounded-lg pb-4"
+                            className="rounded-lg w-full h-60 object-cover pb-4"
+                            style={{ objectFit: "cover" }}
                           />
                         </div>
 
