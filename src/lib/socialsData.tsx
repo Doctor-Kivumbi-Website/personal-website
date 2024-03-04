@@ -9,7 +9,7 @@ const socialsData: Socials = {
     tiktok: "https://www.tiktok.com/@doctorkivumbi",
     whatsapp: "https://wa.me/+256709299755",
     email: "info@doctorkivumbi.com ",
-    phone: "tel:+256709299755",
+    phone: "+256709299755",
     address: "",
     website: ""
 } 
