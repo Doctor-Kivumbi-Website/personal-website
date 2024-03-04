@@ -114,7 +114,7 @@ const Social = ({ source, className } : SocialProps) => {
       )}
       {phone && (
         <li className="inline-block">
-          <a aria-label="telephone" href={`tel:${phone}`}>
+          <a aria-label="telephone" href={`https://wa.me/${phone}`}>
             <IoCall />
           </a>
         </li>
