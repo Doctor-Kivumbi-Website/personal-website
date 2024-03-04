@@ -151,7 +151,7 @@ const Contact = ({ data }: { data: ContactData }) => {
           {phone && (
             <div className="md:col-6 lg:col-4">
               <Link
-                href={`tel:${phone}`}
+                href={`https://wa.me/${phone}`}
                 className="my-4 flex h-[100px] items-center justify-center
              rounded border border-border p-4 text-primary dark:border-darkmode-border"
               >

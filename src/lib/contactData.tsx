@@ -11,7 +11,7 @@ const contactData: ContactData = {
   form_action: "#",
   layout: "contact",
   addresses: [
-    { icon: "FaUserAlt", content: "+256709299755", link: "tel:+256709299755" },
+    { icon: "FaUserAlt", content: "+256709299755", link: "https://wa.me/+256709299755" },
     {
       icon: "FaMapMarkerAlt",
       content: "info@doctorkivumbi.com",
