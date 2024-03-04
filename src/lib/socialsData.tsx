@@ -7,9 +7,9 @@ const socialsData: Socials = {
     youtube: "https://www.youtube.com/@DoctorKivumbi/videos",
     linkedin: "",
     tiktok: "https://www.tiktok.com/@doctorkivumbi",
-    whatsapp: "tel:+256709299755",
+    whatsapp: "https://wa.me/+256709299755",
     email: "info@doctorkivumbi.com ",
-    phone: "",
+    phone: "tel:+256709299755",
     address: "",
     website: ""
 } 
